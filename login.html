@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>Library Management</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="form-box">
+            <header>Login</header>
+            <div id="login-message"></div>
+            <form id="login-form"> <!-- Added form tag -->
+                <div class="input-box">
+                    <input type="text" id="login-username" class="input-field" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="login-password" class="input-field" placeholder="Password" required>
+                </div>
+                <button type="submit" class="submit" id="login-btn">Login</button>
+            </form>
+            <p class="two-col">
+                <span class="one">Don't have an account?</span>
+                <a class="two" href="register.html">Register</a>
+            </p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
